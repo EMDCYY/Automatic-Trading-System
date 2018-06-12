@@ -54,7 +54,7 @@ while (not workSchedule().ifEnd()):
             price = str2data(dataList)
 
             cnt  = cnt + 1
-            print cnt
+            print(cnt)
 
             time.sleep(1) 
             # The code began to run at XX:XX:00. But sometimes its work can be finished in 1 second. 
