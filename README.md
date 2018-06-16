@@ -13,3 +13,5 @@ python3 setup.py install
 pip3 install matplotlib
 
 pip3 install pandas
+
+pip3 install tablib[pandas]
