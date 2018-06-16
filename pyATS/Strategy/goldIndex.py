@@ -28,7 +28,7 @@ def goldIndex(code):
 		FUNDS = EMA(AMOUNT, 13)
 		FILTER = FUNDS/VOLUM*FACTOR
 		PURIFY = ((CLOSE-FILTER)/FILTER)*100
-		# gold = ((purify<0)) AND ZXNH
+		gold = ((purify<0)) AND ZXNH
 		# buylow = 
 
 	# # 黄金:=((提纯 < (0)) AND ZXNH),COLORRED;
